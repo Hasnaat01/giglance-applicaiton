@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #0a70b0;
+  --black: #302f2f;
+  --gray: #565656;
+  --light-gray: #8e8e8e;
+  --white: #fff;
+  --off-white: #ebebeb;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}

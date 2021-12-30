@@ -1,0 +1,18 @@
+/*second column */
+.second-col {
+  background-image: url("../../../assets/images/authentication/login.png");
+  background-size: cover;
+  flex: 0.7;
+  position: relative;
+}
+
+@media (max-width: 3000px) and (min-width: 800px) {
+  .second-col {
+    flex: 0.7;
+  }
+}
+@media (max-width: 799px) and (min-width: 300px) {
+  .second-col {
+    display: none;
+  }
+}

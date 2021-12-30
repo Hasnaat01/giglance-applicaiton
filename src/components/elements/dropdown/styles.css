@@ -1,0 +1,53 @@
+.dropdown,
+.dropdown button#dropdownMenuButton {
+  width: 100%;
+}
+.dropdown,
+.dropdown button#dropdownMenuButton:focus {
+  box-shadow: none;
+}
+.dropdown button#dropdownMenuButton {
+  height: 2.625rem;
+  background: #ffffff;
+  border: 0.0625rem solid #0a70b0;
+  box-sizing: border-box;
+  border-radius: 0rem;
+  color: #0a70b0;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 0.75rem;
+}
+.dropdown span.dropdown-badge {
+  padding: 0.25rem 0.375rem;
+  background: var(--primary-color);
+  color: white;
+  margin-right: 0.5rem;
+}
+.dropdown .grayColor {
+  border-color: rgba(58, 58, 58, 0.2) !important;
+  color: #777777;
+}
+.dropdown .grayColor .dropdown-title {
+  color: #777777;
+}
+.dropdown .grayColor svg path {
+  fill: #777777;
+}
+.dropdown .dropdown-menu.show {
+  width: 100%;
+}
+.dropdown .dropdown-item {
+  font-size: 0.75rem;
+  padding: 0.625rem 0.9375rem;
+}
+.dropdown .dropdown-toggle::after {
+  display: none;
+}

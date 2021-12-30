@@ -1,0 +1,26 @@
+.suggested-job-bg {
+  background: #c1e2f780;
+  margin: 0px;
+  padding: 6.875rem 9.25rem;
+  margin-top: 6.25rem;
+  border-bottom: none;
+}
+.suggested-job-bg .heading {
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  color: var(--primary-color);
+}
+.suggested-job-bg .suggested-job {
+  border: none;
+}
+.suggested-job-bg .each-feed {
+  border: none;
+}
+
+@media (max-width: 599px) and (min-width: 300px) {
+  .suggested-job-bg {
+    padding: 2.875rem 1.25rem;
+    margin-bottom: 40px;
+  }
+}
